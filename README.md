@@ -5,16 +5,18 @@
 
 ## Progress Tracker
 
-| Chapter      | Status      | Started    | Completed |
-| ------------ | ----------- | ---------- | --------- |
-| Introduction | In Progress | 30/04/2026 | —         |
+| Chapters                   | Status      | Started    | Completed  |
+| -------------------------- | ----------- | ---------- | ---------- |
+| Introduction               | Completed   | 30/04/2026 | 30/04/2026 |
+| Programmig a Guessing Game | Completed   | 30/04/2026 | 30/04/2026 |
+| Core Fundamentals          | In progress | 30/04/2026 | -          |
 
 ## Concepts Covered
 
 ### Core Fundamentals
 
-- [ ] Variables, mutability & shadowing
-- [ ] Data types (scalar & compound)
+- [x] Variables, mutability & shadowing
+- [x] Data types (scalar & compound)
 - [ ] Functions & control flow
 - [ ] Loops (`loop`, `while`, `for`)
 - [ ] Comments & documentation (`//`, `///`)
