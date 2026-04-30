@@ -3,15 +3,11 @@
 > Learning Rust — a systems programming language focused on safety, speed, and concurrency.
 > This repo tracks my progress, notes, and projects as I go from zero to Rustacean.
 
----
-
 ## Progress Tracker
 
 | Chapter      | Status      | Started    | Completed |
 | ------------ | ----------- | ---------- | --------- |
 | Introduction | In Progress | 30/04/2026 | —         |
-
----
 
 ## Concepts Covered
 
@@ -116,15 +112,11 @@
 - [ ] `std::mem` & low-level memory control
 - [ ] Zero-cost abstractions
 
----
-
 ## Projects
 
 | #   | Project              | Concepts Practiced    | Status  | Link |
 | --- | -------------------- | --------------------- | ------- | ---- |
 | 1   | Number Guessing Game | Variables, I/O, loops | Pending | —    |
-
----
 
 ## Notes
 
@@ -132,15 +124,11 @@
 
 - [`/notes/ownership.md`](./notes/ownership.md) — Ownership, borrowing & lifetimes
 
----
-
 ## Key Takeaways
 
 > Things that clicked, surprised me, or tripped me up.
 
 - _(Added as I learn...)_
-
----
 
 ## Resources
 
@@ -150,8 +138,6 @@
 | Book     | [Rust by Example](https://doc.rust-lang.org/rust-by-example/)               |
 | YouTube  | [Let's Get Rusty](https://www.youtube.com/@letsgetrusty)                    |
 | Practice | [Exercism – Rust Track](https://exercism.org/tracks/rust)                   |
-
----
 
 ## Setup
 
@@ -168,7 +154,5 @@ cargo new my-project
 cd my-project
 cargo run
 ```
-
----
 
 _Started: 30/04/2026 · Updated regularly as I progress 🚀_
