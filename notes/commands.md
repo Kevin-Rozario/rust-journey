@@ -16,3 +16,4 @@
    > `cargo build --release`: Compiles the final release version at `./target/release`.
 4. `cargo run`: Compiles and executes the code.
 5. `cargo check`: Check whether the code compiles without creating an executable.
+6. `cargo doc --open`: Opens up docs for reference/help.
