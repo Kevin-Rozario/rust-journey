@@ -117,15 +117,15 @@
 
 ## Projects
 
-| #   | Project              | Concepts Practiced    | Status  | Link |
-| --- | -------------------- | --------------------- | ------- | ---- |
-| 1   | Number Guessing Game | Variables, I/O, loops | Pending | —    |
+| #   | Project              | Concepts Practiced    | Status |
+| --- | -------------------- | --------------------- | ------ |
+| 1   | Number Guessing Game | Variables, I/O, loops | Done   |
 
 ## Notes
 
 > Organized by topic — each linked to its own file in `/notes`.
 
-- [`/notes/core_fundamentals.md`](./notes/core_fundamentals.md) — Variables, Mutability, Datatypes, Control Flow and Loops.
+- [Core Fundamentals](./notes/core_fundamentals.md) — Variables, Mutability, Datatypes, Control Flow and Loops.
 
 ## Key Takeaways
 
@@ -159,4 +159,4 @@ cd my-project
 cargo run
 ```
 
-_Started: 4/05/2026 · Updated regularly as I progress 🚀_
+_Started: 04/05/2026 · Updated regularly as I progress 🚀_
