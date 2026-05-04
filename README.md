@@ -9,7 +9,8 @@
 | -------------------------- | ----------- | ---------- | ---------- |
 | Introduction               | Completed   | 30/04/2026 | 30/04/2026 |
 | Programmig a Guessing Game | Completed   | 30/04/2026 | 30/04/2026 |
-| Core Fundamentals          | In progress | 30/04/2026 | -          |
+| Core Fundamentals          | Completed   | 30/04/2026 | 04/05/2026 |
+| Ownership System           | In progress | 04/05/2026 | -          |
 
 ## Concepts Covered
 
@@ -17,10 +18,10 @@
 
 - [x] Variables, mutability & shadowing
 - [x] Data types (scalar & compound)
-- [ ] Functions & control flow
-- [ ] Loops (`loop`, `while`, `for`)
-- [ ] Comments & documentation (`//`, `///`)
-- [ ] Constants & statics (`const`, `static`)
+- [x] Functions & control flow
+- [x] Loops (`loop`, `while`, `for`)
+- [x] Comments & documentation (`//`, `///`)
+- [x] Constants & statics (`const`, `static`)
 
 ### Ownership System _(Rust's killer feature)_
 
@@ -124,13 +125,14 @@
 
 > Organized by topic — each linked to its own file in `/notes`.
 
-- [`/notes/ownership.md`](./notes/ownership.md) — Ownership, borrowing & lifetimes
+- [`/notes/core_fundamentals.md`](./notes/core_fundamentals.md) — Variables, Mutability, Datatypes, Control Flow and Loops.
 
 ## Key Takeaways
 
 > Things that clicked, surprised me, or tripped me up.
 
-- _(Added as I learn...)_
+- _Concept of Shadowing where the same variable is defined with the keyword `let`._
+- _Rust is an expression-based language it has something called Statements(Returns no value) and Expressions(Returns value)._
 
 ## Resources
 
@@ -157,4 +159,4 @@ cd my-project
 cargo run
 ```
 
-_Started: 30/04/2026 · Updated regularly as I progress 🚀_
+_Started: 4/05/2026 · Updated regularly as I progress 🚀_

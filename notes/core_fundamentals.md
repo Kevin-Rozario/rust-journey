@@ -83,3 +83,52 @@
 - Hold values of same datatype.
 - Fixed length as compared to vector in Standard Library.
 - Memory Allocation: Stack.
+
+## Functions
+
+- `main` function is the entry point.
+- Declaration: keyword `fn`.
+  - Ex: `fn another_function(){};`.
+- Naming convetion: "snake_case".
+- Functions can be declared anywhere within the scope of the caller function.
+- Rust is an "Expression-Based" language.
+- **Statements and Expressions**
+  - _Statements:_ These are instructions that perform some action and do not return a value.
+    - Function definition is also a statement.
+    - Cannot assign a `let` statement to another variable, as the following code tries to do; get an error:
+
+    ```Rust
+    fn main() {
+        let x = (let y = 6);
+    }
+    ```
+
+    - So in Rust `let` doesn't return a value. So assignment of multiple variables with equal value can't be done like "x = y = 8" unlike other languages.
+
+  - _Expressions:_ It evaluate to a resultant value.
+    - Expressions doesn't end with a semi-colon if done then it will be a statement and there might be error.
+
+- **Functions with return values**
+  - It is mandatory to mention the return type in the function declaration with the help of `->`.
+    - Ex: `fn five() -> i32 { 5 };`.
+
+## Comments
+
+- Comments are done using `//` for single as well as multiple.
+
+## Control Flow
+
+- **if Expressions**
+- Declaration: Keyword `if`.
+- Block of code associated with the conditions in if expressions are sometimes also called "arms" similar to arms in "match".
+
+## Loops
+
+- 3 types: loop, while and for.
+- Syntax
+  - Loop: `loop { ... }`.
+  - while: `while <condition> { ... }`.
+  - for: `for i in (1..5) { ... }`.
+- Keyword `break` to break the loop.
+- Keyword `continue` to skip to the next iteration.
+- Loop label should be begin with a single quote.
