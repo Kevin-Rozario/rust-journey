@@ -1,16 +1,16 @@
 # 🦀 Rust Journey
 
-> Learning Rust — a systems programming language focused on safety, speed, and concurrency.
+> Learning Rust - a systems programming language focused on safety, speed, and concurrency.
 > This repo tracks my progress, notes, and projects as I go from zero to Rustacean.
 
 ## Progress Tracker
 
-| Chapters                   | Status      | Started    | Completed  |
-| -------------------------- | ----------- | ---------- | ---------- |
-| Introduction               | Completed   | 30/04/2026 | 30/04/2026 |
-| Programmig a Guessing Game | Completed   | 30/04/2026 | 30/04/2026 |
-| Core Fundamentals          | Completed   | 30/04/2026 | 04/05/2026 |
-| Ownership System           | In progress | 04/05/2026 | -          |
+| Chapters                   | Status    | Started    | Completed  |
+| -------------------------- | --------- | ---------- | ---------- |
+| Introduction               | Completed | 30/04/2026 | 30/04/2026 |
+| Programmig a Guessing Game | Completed | 30/04/2026 | 30/04/2026 |
+| Core Fundamentals          | Completed | 30/04/2026 | 04/05/2026 |
+| Ownership System           | Completed | 04/05/2026 | 07/05/2026 |
 
 ## Concepts Covered
 
@@ -25,12 +25,12 @@
 
 ### Ownership System _(Rust's killer feature)_
 
-- [ ] Ownership rules
-- [ ] Move semantics
-- [ ] Borrowing & references
-- [ ] Mutable vs immutable references
-- [ ] Dangling references
-- [ ] Slices (`&str`, `&[T]`)
+- [x] Ownership rules
+- [x] Move semantics
+- [x] Borrowing & references
+- [x] Mutable vs immutable references
+- [x] Dangling references
+- [x] Slices (`&str`, `&[T]`)
 
 ### Structs & Enums
 
@@ -123,9 +123,11 @@
 
 ## Notes
 
-> Organized by topic — each linked to its own file in `/notes`.
+> Organized by topic - each linked to its own file in `/notes`.
 
-- [Core Fundamentals](./notes/core_fundamentals.md) — Variables, Mutability, Datatypes, Control Flow and Loops.
+- [Commands](./notes/commands.md) - Rust build commands (`cargo build`, `cargo run`).
+- [Core Fundamentals](./notes/core_fundamentals.md) - Variables, Mutability, Datatypes, Control Flow and Loops.
+- [Ownership System](./notes/ownership_system.md) - Ownership rules, move semantics, borrowing & references, mutable vs immutable references, dangling references, slices (`&str`, `&[T]`).
 
 ## Key Takeaways
 
@@ -133,6 +135,9 @@
 
 - _Concept of Shadowing where the same variable is defined with the keyword `let`._
 - _Rust is an expression-based language it has something called Statements(Returns no value) and Expressions(Returns value)._
+- _Shallow copies aren't supported in Rust, use `clone()` or `Copy` trait for deep copies._
+- _Move instead of shallow copy._
+- _Slices (`&str`, `&[T]`) are immutable references to a contiguous sequence of elements._
 
 ## Resources
 
@@ -159,4 +164,4 @@ cd my-project
 cargo run
 ```
 
-_Started: 04/05/2026 · Updated regularly as I progress 🚀_
+_Started: 30/04/2026 · Updated regularly as I progress 🚀_
