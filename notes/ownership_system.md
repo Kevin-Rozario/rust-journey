@@ -1,6 +1,6 @@
 # Ownership
 
-## Owneship
+## Ownership
 
 - **Definition:** It is a set of rules that govern how a Rust program manages memory.
 
